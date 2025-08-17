@@ -2,13 +2,13 @@
 
 A clean, user-friendly library management app built with **React**, **Redux Toolkit Query (RTK Query)**, **TypeScript** on the frontend, and **Express.js (MVC pattern)** on the backend.
 
+---
+
 **Live Demo:**  
 🔗 [LibraDesk - Library Management System](https://libradesk.vercel.app/)
 
 **GitHub Repo:**  
 🔗 [https://github.com/xyryc/libradesk-backend.git](https://github.com/xyryc/libradesk-backend.git)
-
----
 
 ## 🎯 Overview
 
