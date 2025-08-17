@@ -27,7 +27,6 @@ This project is a **library management system**:
 ### Borrow Summary
 
 - See which books have been borrowed and how many times (aggregated)
-- Columns: Book Title, ISBN, Total Quantity Borrowed
 
 ### Navigation
 
