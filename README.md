@@ -1,8 +1,6 @@
-# 📚 LibraDesk Library Management System - Backend
+# LibraDesk Library Management System - Backend
 
 A clean, user-friendly library management app built with **React**, **Redux Toolkit Query (RTK Query)**, **TypeScript** on the frontend, and **Express.js (MVC pattern)** on the backend.
-
----
 
 **Live Demo:**  
 🔗 [LibraDesk - Library Management System](https://libradesk.vercel.app/)
@@ -10,15 +8,15 @@ A clean, user-friendly library management app built with **React**, **Redux Tool
 **GitHub Repo:**  
 🔗 [https://github.com/xyryc/libradesk-backend.git](https://github.com/xyryc/libradesk-backend.git)
 
-## 🎯 Overview
+## Overview
 
 This project is a **library management system**:
 
 - **Backend:** Node.js + Express (MVC) + REST API
 
-## ✨ Features
+## Features
 
-### 📖 Book Management
+### Book Management
 
 - **Book Table**: View all books (Title, Author, Genre, ISBN, Copies, Availability, Actions)
 - **Add Book**: Simple form to add new books
@@ -26,24 +24,24 @@ This project is a **library management system**:
 - **Delete Book**: Remove books with confirmation
 - **Borrow Book**: Borrow books by quantity and due date
 
-### 📊 Borrow Summary
+### Borrow Summary
 
 - See which books have been borrowed and how many times (aggregated)
 - Columns: Book Title, ISBN, Total Quantity Borrowed
 
-### 🧭 Navigation
+### Navigation
 
 - **All Books**
 - **Add Book**
 - **Borrow Summary**
 
-### 🔒 Authentication
+### Authentication
 
 - **None required** — All routes and features are public!
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 - **Node.js**
 - **Express.js** (MVC Pattern)
@@ -51,7 +49,7 @@ This project is a **library management system**:
 
 ---
 
-## 🗂️ Main Pages
+## Main Pages
 
 - `/books` – Book list (view, edit, delete, borrow)
 - `/create-book` – Add new book
@@ -62,7 +60,7 @@ This project is a **library management system**:
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### 1. Clone the Repo
 
