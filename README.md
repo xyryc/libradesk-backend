@@ -1,58 +1,50 @@
-# 📚 Minimal Library Management System
+# 📚 LibraDesk Library Management System - Backend
 
 A clean, user-friendly library management app built with **React**, **Redux Toolkit Query (RTK Query)**, **TypeScript** on the frontend, and **Express.js (MVC pattern)** on the backend.
 
 **Live Demo:**  
-🔗 [Minimal Library Management System](https://engrsakib-level-2-ass4.surge.sh/)
+🔗 [LibraDesk - Library Management System](https://libradesk.vercel.app/)
 
 **GitHub Repo:**  
-🔗 [engrsakib/test-library-management-](https://github.com/engrsakib/test-library-management-)
+🔗 [https://github.com/xyryc/libradesk-backend.git](https://github.com/xyryc/libradesk-backend.git)
 
 ---
 
 ## 🎯 Overview
 
-This project is a **full stack library management system**:
-- **Frontend:** React + RTK Query + TypeScript + Tailwind CSS
+This project is a **library management system**:
+
 - **Backend:** Node.js + Express (MVC) + REST API
-
-You can view, add, edit, delete, and borrow books. All features are public—no login, no complex filters—just minimal, smooth, and practical book & borrow management.
-
----
 
 ## ✨ Features
 
 ### 📖 Book Management
+
 - **Book Table**: View all books (Title, Author, Genre, ISBN, Copies, Availability, Actions)
 - **Add Book**: Simple form to add new books
 - **Edit Book**: Update any book info
 - **Delete Book**: Remove books with confirmation
 - **Borrow Book**: Borrow books by quantity and due date
-- **Business Logic**: If copies = 0, book is marked unavailable
 
 ### 📊 Borrow Summary
+
 - See which books have been borrowed and how many times (aggregated)
 - Columns: Book Title, ISBN, Total Quantity Borrowed
 
 ### 🧭 Navigation
+
 - **All Books**
 - **Add Book**
 - **Borrow Summary**
 
 ### 🔒 Authentication
+
 - **None required** — All routes and features are public!
 
 ---
 
 ## 🏗️ Tech Stack
 
-### Frontend
-- **React** (Functional Components)
-- **Redux Toolkit Query (RTK Query)**
-- **TypeScript**
-- **Tailwind CSS**
-
-### Backend
 - **Node.js**
 - **Express.js** (MVC Pattern)
 - **RESTful API**
@@ -75,20 +67,13 @@ You can view, add, edit, delete, and borrow books. All features are public—no 
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/engrsakib/test-library-management-.git
-cd test-library-management-
+git clone https://github.com/xyryc/libradesk-backend.git
+cd libradesk-backend
 ```
 
-### 2. Install Frontend Dependencies
+### 3. Install Dependencies
 
 ```bash
-npm install
-```
-
-### 3. Install Backend Dependencies
-
-```bash
-cd backend   # (if backend is in /backend)
 npm install
 ```
 
@@ -111,39 +96,5 @@ npm run dev    # Or: npm start
 
 ### 7. Visit in Browser
 
-- [http://localhost:3000](http://localhost:3000) (Frontend)
 - [http://localhost:5000](http://localhost:5000) (Backend, or your configured port)
-- Or try the [Live Demo](https://engrsakib-level-2-ass4.surge.sh/)
-
----
-
-## 🧩 Folder Structure
-
-```
-backend/         # Express MVC backend (controllers, models, routes)
-src/             # Frontend React app
-  components/
-  pages/
-  features/      # RTK Query slices
-  types/
-  App.tsx
-  main.tsx
-  index.css
-```
-
----
-
-## 🖥️ UI/UX
-
-- **Minimalist & Modern**: Clean layout using Tailwind CSS
-- **Responsive**: Looks great on any device
-- **Instant Feedback**: All actions show success/error messages
-- **Accessible**: Keyboard and screen reader friendly
-
----
-
-## 🙏 Credits
-
-Built by [engrsakib](https://github.com/engrsakib)  
-Minimal Library Management System – For demo, learning, and simple library management.
-
+- Or try the [Live Demo](https://libradesk.vercel.app/)
